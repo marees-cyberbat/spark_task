@@ -1,0 +1,28 @@
+// respoinsive design
+
+@mixin smallerScreenPortait {
+    @media only screen and (min-width: 300px){
+        @content;
+    }
+}
+@mixin smallerScreenLandscape {
+    @media only screen and (min-width: 600px){
+        @content;
+    }
+}
+@mixin mediumScreen {
+    @media only screen and (min-width: 768px){
+        @content;
+    }
+}
+@mixin laptopScreen {
+    @media only screen and (min-width: 992px){
+        @content;
+    }
+}
+@mixin largeScreen {
+    @media only screen and (min-width: 1200px){
+        @content;
+    }
+}
+

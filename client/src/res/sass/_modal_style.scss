@@ -1,0 +1,108 @@
+@import 'utils';
+
+@include smallerScreenPortait {
+    .my-sidebar{
+        width: 10%;
+      }
+      .show-on-small{
+        display:none
+      }
+      .my-side-meu{
+        display:none 
+      }
+      .modal-content {
+        height: -webkit-fill-available;
+    }
+    
+}
+@include smallerScreenLandscape {
+  .modal-content {
+    height: auto;
+}
+    .my-sidebar{
+        width: 10%;
+      }
+      .show-on-small{
+        display:none
+      }
+      .my-side-meu{
+        display:none 
+      }
+      .show-on-small{
+        display:none 
+      }
+      .my-side-meu{
+        display:none 
+      }
+}
+@include mediumScreen {
+  .modal-content {
+    height: auto;
+}
+    .modal{
+        height: 50%;
+      }
+    .my-sidebar{
+        width: 20%;
+        
+      }
+      .my-list{
+        width:50%;
+      }
+      .my-side-meu{
+        display:none 
+      }
+}
+@include laptopScreen {
+  .modal-content {
+    height: auto;
+}
+    .modal{
+        height: 50%;
+      }
+    .my-sidebar{
+        width: 20%;
+      }
+      .my-list{
+        width:50%;
+      }
+      .my-side-meu{
+        display:none 
+      }
+}
+@include largeScreen {
+  .modal-content {
+    height: auto;
+}
+    .modal{
+        height: auto;
+      }
+    .my-sidebar{
+        width: 20%;
+      }
+      .my-list{
+        width:70%;
+      }
+      .my-side-meu{
+        display:none 
+      }
+}
+
+.show-on-small{
+  display:none !important
+}
+
+i.icon-white {
+  color: white;
+}
+.modal{
+    height: auto;
+  }
+  
+
+  .modal-content {
+    background-color: #e8eaf6;
+    h4{
+      color: $primary-color;
+    }
+}
