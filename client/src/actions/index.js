@@ -22,7 +22,7 @@ export const fetchUser = () => async (dispatch, getState) => {
 
 
 
-  // delete todo
+  // delete note 
 export const deleteNote = (request) => async(dispatch, getState) => {
     console.log(request)
     try{
@@ -113,7 +113,7 @@ export const logout = ()=>{
 }
 
 
-// add todo
+// add note
 export const addNote = (request) => async(dispatch, getState) => {
     console.log(request)
     try{
